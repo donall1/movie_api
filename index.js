@@ -60,6 +60,7 @@ app.get('/', (req, res) => {
 
 // Get a list of data about all movies
 app.get('/movies', (req, res) => {
+  res.json(topTenMovies);
   res.send('Successful GET request returning data on all movies');
  });
 
@@ -107,6 +108,6 @@ app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).send('Something went wrong!');
   });
-  
+
 app.listen(8080, () =>
   console.log('Your app is listening on port 8080.'));

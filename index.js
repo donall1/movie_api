@@ -9,44 +9,40 @@ let topTenMovies = [
     cast: 'Marlon Brando, Al Pacino, James Caan, Robert Duvall, Diane Keaton, Talia Shire'
   },
   {
-    title: 'Star Wars',
-    cast: 'Mark Hamill, Harisson Ford, Carrie Fisher, James Earl Jones'
+    title: 'The Wizard of Oz',
+    cast: 'Judy Garland, Frank Morgan, Ray Bolger, Bert Lahr, Jack Haley'
   },
   {
     title: 'Citizen Kane',
     cast: 'Orson Welles, Joseph Cotten, Dorothy Comingore, Agnes Moorehead, Ruth Warrick'
   },
   {
-    title: "Schindler's List",
-    cast: 'Liam Neeson, Ralph Fiennes, Ben Kingsley'
+    title: 'The Shawshank Redemption',
+    cast: 'Tim Robbins, Morgan Freeman'
   },
   {
     title: 'Pulp Fiction',
     cast: 'John Travolta, Uma Thurman, Samuel L. Jackson, Bruce Willis, Ving Rhames'
   },
   {
-    title: 'All Quiet on the Western Front',
-    cast: 'Lew Ayres, Louis Wolheim, John Wray, Ben Alexander'
+    title: 'Casablanca',
+    cast: 'Humphrey Bogart, Ingrid Bergman'
+  },
+  {
+    title: 'The Godfather: Part II',
+    cast: 'Al Pacino, Robert De Niro, Robert Duvall, Diane Keaton'
+  },
+  {
+    title: 'E.T. The Extra-Terrestrial',
+    cast: 'Henry Thomas, Drew Barrymore, Dee Wallace'
   },
   {
     title: '2001: A Space Odyssey',
     cast: 'Keir Dullea, Gary Lockwood, William Sylvester'
   },
   {
-    title: 'Apocolypse Now',
-    cast: 'Martin Sheen, Marlon Brando, Dennis Hopper, Robert Duvall'
-  },
-  {
-    title: '1917',
-    cast: 'George Mackay, Dean-Charles Chapman, Richard Madden'
-  },
-  {
-    title: 'Pulp Fiction',
-    cast: 'John Travolta, Uma Thurman, Samuel L. Jackson, Bruce Willis, Ving Rhames'
-  },
-  {
-    title: 'The Shawshank Redemption',
-    cast: 'Tim Robbins, Morgan Freeman'
+    title: "Schindler's List",
+    cast: 'Liam Neeson, Ralph Fiennes, Ben Kingsley'
   },
 ];
 app.get('/', (req, res) => {

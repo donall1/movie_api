@@ -1,8 +1,12 @@
 const express = require('express');
   morgan = require('morgan');
+
 const app = express();
+
 app.use(morgan('common'));
+
 app.use(express.static('public'));
+
 let topTenMovies = [
   {
     title: 'The Godfather',
@@ -49,6 +53,7 @@ let topTenMovies = [
     cast: 'Tim Robbins, Morgan Freeman'
   },
 ];
+
 app.get('/', (req, res) => {
   res.send('Welcome to Qli-Flix!');
 });

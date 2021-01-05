@@ -1,10 +1,11 @@
 {
   "name": "movie_api",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,16 +19,20 @@
   },
   "homepage": "https://github.com/donall1/movie_api#readme",
   "dependencies": {
-    "body": "^5.1.0",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.20",
-    "mongoose": "^5.11.10",
+    "mongoose": "^5.10.9",
     "morgan": "^1.10.0",
-    "uuid": "^8.3.2"
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
-    "eslint": "^7.15.0"
-  },
-  "description": ""
+    "eslint": "^7.11.0"
+  }
 }
